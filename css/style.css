@@ -5,15 +5,27 @@
     margin-bottom: -1px !important;
     position: relative;
     }
+
     .tab-content {
     padding: 60px;
     top: 197px;
     color: #000;
     background-color: white;
+    text-align: center;
     }
+    
+    .content-aboutus{
+    padding: 60px;
+    top: 197px;
+    color: #000;
+    background-color: white;
+    text-align: justify;
+    }
+
     .tab-pane {
     display: none;
     }
+    
     .tab-pane.is-active {
     display: block;
     width: 50%;
@@ -21,10 +33,11 @@
     left: 50%;
     transform: translateX(-50%);
     }
+
     .is-active {
     display: initial;
     }
-    
+
     .cent{
     display: block;
     margin: 10px auto;
